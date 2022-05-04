@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appContainer { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 100px;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 5%;
+}
+
+.header {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  margin-left: 4px;
+} 
+
+.globeLogo {
+  width: 35px;
+  height: 35px;
+  margin: 4px;
+  margin-top: 7px;
+}
+
+.mainImg {
+  min-width: 500px;
+  max-height: 300px;;
+  border-radius: 5px;
+  margin-right: 50px
+}
+
+.reverseMainImg {
+  min-width: 500px;
+  max-height: 300px;
+  border-radius: 5px;
+  margin-left: 50px; 
+}
+
+.entryContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  margin-left: 40px;
+  margin-bottom: 50px;
+ }
+
+.entryContainerReverse {
+  width: 75%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  
+}
+
+.geoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.ping {
+  height: 17px;
+  width: 12px;
+  margin-right: 5px
+}
+
+.title {
+ font-weight: 900;
+ margin-top: 2px;
+ color: #F55A5A;
+ letter-spacing: .1em;
+}
+
+.country {
+  padding-right: 20px;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 300;
+  letter-spacing: 0.17em;
+  
+}
+
+.googleMaps {
+  font-size: 15px;
+  line-height: 15px;
+  color: #918E9B;
+  text-decoration-line: underline;
+  
+}
+
+.dateLength {
+  font-size: 17px;
+}
+
+.description {
+  font-size: 17px;
+  margin-right: 10px;
 }
